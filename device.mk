@@ -91,14 +91,24 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     cneapiclient \
     com.quicinc.cne
-    
+
 # default is nosdcard, S/W button enabled in resource
 PRODUCT_CHARACTERISTICS := nosdcard
-    
+
 # Device uses high-density artwork where available
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
-    
+
+# Extra
+PRODUCT_PACKAGES += \
+    GMessaging \
+    CalculatorGooglePrebuilt \
+    PrebuiltDeskClockGoogle \
+    GContacts \
+    GBoard \
+    GalleryGo \
+    Calendar
+
 # Display
 PRODUCT_PACKAGES += \
     copybit.sdm660 \
