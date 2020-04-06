@@ -101,13 +101,7 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
 # Extra
 PRODUCT_PACKAGES += \
-    GMessaging \
-    CalculatorGooglePrebuilt \
-    PrebuiltDeskClockGoogle \
-    GContacts \
-    GBoard \
-    GalleryGo \
-    Calendar
+    GMessaging
 
 # Display
 PRODUCT_PACKAGES += \
