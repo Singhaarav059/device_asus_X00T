@@ -43,7 +43,6 @@ PRODUCT_PROPERTY_OVERRIDES +=  \
     persist.vendor.radio.rat_on=combine \
     persist.vendor.radio.sib16_support=1 \
     persist.dbg.volte_avail_ovr=1 \
-    persist.dbg.vt_avail_ovr=1 \
     persist.dbg.wfc_avail_ovr=1 \
     qemu.hw.mainkeys=0 \
     rild.libpath=/system/vendor/lib64/libril-qc-qmi-1.so \
